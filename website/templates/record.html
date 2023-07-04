@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Customer record</h1>
+
+        {{ customer_record.first_name }}
+        {{ customer_record.last_name }}
+        <br/>
+        {{ customer_record.email }} <br/>
+        {{ customer_record.phone }} 
+
+{% endblock %}
